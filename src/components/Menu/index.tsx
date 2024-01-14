@@ -6,16 +6,14 @@ import PatternTab from "./PatternTab";
 
 const Menu = () => {
   return (
-    <div
-      className={`absolute w-[500px] -translate-x-1/2 inset-x-1/2 bottom-10`}
-    >
+    <div className={`w-[600px] m-auto mb-10`}>
       <Tabs className="w-full" defaultValue="pattern">
         <TabsList className="w-full justify-between mt-2 relative h-10">
           <TabsTrigger value="pattern">Pattern</TabsTrigger>
           <TabsTrigger value="colors">Colors</TabsTrigger>
           <TabsTrigger value="animation">Animation</TabsTrigger>
         </TabsList>
-        <Card className="mt-2">
+        <Card className="mt-2  min-h-[300px] border-[1px] border-zinc-500 shadow-lg">
           <PatternTab />
           <ColorsTab />
           <AnimationTab />

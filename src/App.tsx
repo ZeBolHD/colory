@@ -3,7 +3,8 @@ import Menu from "./components/Menu";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex flex-col h-screen">
+      <div className="flex-1"></div>
       <BackgroundPattern />
       <Menu />
     </div>
