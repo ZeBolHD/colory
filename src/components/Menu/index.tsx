@@ -6,7 +6,9 @@ import PatternTab from "./PatternTab";
 
 const Menu = () => {
   return (
-    <div className="absolute w-[500px] -translate-x-1/2 inset-x-1/2 bottom-10">
+    <div
+      className={`absolute w-[500px] -translate-x-1/2 inset-x-1/2 bottom-10`}
+    >
       <Tabs className="w-full" defaultValue="pattern">
         <TabsList className="w-full justify-between mt-2 relative h-10">
           <TabsTrigger value="pattern">Pattern</TabsTrigger>
