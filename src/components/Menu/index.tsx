@@ -13,7 +13,7 @@ const Menu = () => {
           <TabsTrigger value="colors">Colors</TabsTrigger>
           <TabsTrigger value="animation">Animation</TabsTrigger>
         </TabsList>
-        <Card className="mt-2  min-h-[300px] border-[1px] border-zinc-500 shadow-lg">
+        <Card className="mt-2  min-h-[300px] shadow-lg">
           <PatternTab />
           <ColorsTab />
           <AnimationTab />

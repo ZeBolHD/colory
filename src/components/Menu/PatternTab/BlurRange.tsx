@@ -22,7 +22,7 @@ const BlurRange = () => {
         id="blur"
         defaultValue={[blur]}
         step={0.1}
-        max={5}
+        max={4}
         min={0}
         onValueChange={([blur]) => handleBlur(blur)}
         className="ml-5 w-[135px]"

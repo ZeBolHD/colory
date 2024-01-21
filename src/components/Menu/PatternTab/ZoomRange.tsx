@@ -15,11 +15,11 @@ const ZoomRange = () => {
 
   return (
     <div className="flex items-center justify-between">
-      <Label htmlFor="blur" className="text-base">
+      <Label htmlFor="zoom" className="text-base">
         Zoom:
       </Label>
       <Slider
-        id="blur"
+        id="zoom"
         defaultValue={[zoom]}
         step={0.1}
         max={4}
