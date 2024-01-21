@@ -12,8 +12,8 @@ interface PatternState {
 
 const initialState: PatternState = {
   pattern: Pattern.Instruments,
-  zoom: 1,
-  blur: 0,
+  zoom: 1.5,
+  blur: 1,
   opacity: 1,
   rotate: 0,
   mask: false,

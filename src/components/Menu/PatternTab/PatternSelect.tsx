@@ -28,7 +28,7 @@ const PatternSelect = () => {
 
   return (
     <div className="flex h-fit items-center justify-between">
-      <Label>Pattern</Label>
+      <Label className="text-base">Pattern</Label>
       <Select defaultValue={pattern} onValueChange={handleSelect}>
         <SelectTrigger className="ml-5">
           <SelectValue className="capitalize" placeholder="Pattern" />
