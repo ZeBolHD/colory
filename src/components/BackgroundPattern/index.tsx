@@ -20,7 +20,7 @@ const BackgroundPattern = () => {
     >
       <div className={`w-full h-full absolute ${mask ? "invert" : ""}`}>
         <div
-          className="w-full h-full bg-white -z-30 bg-transparent"
+          className="w-full h-full -z-30 transition-all duration-500"
           style={{
             backgroundImage: `url('/${pattern}.svg')`,
             backgroundSize: "200px",
