@@ -2,9 +2,10 @@ import { configureStore } from "@reduxjs/toolkit";
 import { useDispatch } from "react-redux";
 
 import patternReducer from "./pattern/slice";
+import colorsReducer from "./colors/slice";
 
 export const store = configureStore({
-  reducer: { pattern: patternReducer },
+  reducer: { pattern: patternReducer, colors: colorsReducer },
 });
 
 export type RootState = ReturnType<typeof store.getState>;

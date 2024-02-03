@@ -10,8 +10,6 @@ const BackgroundPattern = () => {
 
   const gradient = `linear-gradient(${45}deg, #ee7752, #e73c7e, yellow, #23d5ab)`;
 
-  console.log(opacity);
-
   return (
     <div
       className="w-full h-vh overflow-hidden absolute inset-0 -z-10 transition-all duration-1000
