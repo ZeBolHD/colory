@@ -19,7 +19,9 @@ const Colors = () => {
       <div className="w-full mt-4 grid grid-cols-6 gap-4">
         {colors.map((color, index) => {
           const onClick = () => handleColorClick(color);
-          return <Color color={color} size={8} key={index} onClick={onClick} />;
+          return (
+            <Color color={color} size="lg" key={index} onClick={onClick} />
+          );
         })}
       </div>
     </div>

@@ -21,7 +21,9 @@ const SelectedColors = () => {
         {selectedColors.map((color, index) => {
           const onClick = () => handleColorClick(index);
 
-          return <Color color={color} size={6} key={index} onClick={onClick} />;
+          return (
+            <Color color={color} size="sm" key={index} onClick={onClick} />
+          );
         })}
       </div>
     </div>
